@@ -9,6 +9,7 @@ development:
   database: sample_development
   pool: 5
   timeout: 5000
+  username: saasbook
   password: saasbook
 
 # Warning: The database defined as "test" will be erased and
@@ -20,6 +21,7 @@ test:
   database: sample_test
   pool: 5
   timeout: 5000
+  username: saasbook
   password: saasbook
 
 production:
@@ -28,4 +30,5 @@ production:
   database: sample_production
   pool: 5
   timeout: 5000
+  username: saasbook
   password: saasbook
