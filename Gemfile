@@ -13,6 +13,7 @@ group :development, :test do
 	gem 'guard-rspec', '1.2.1'
 	gem 'guard-spork', '1.2.0'
 	gem 'spork', '0.9.2'
+	gem 'debugger'
 end
 
 # Gems used only for assets and not required
@@ -35,6 +36,8 @@ group :test do
 	gem 'rb-inotify', '0.8.8'
 	gem 'libnotify', '0.5.9'
 	gem 'factory_girl_rails', '4.1.0'
+	gem 'cucumber-rails', '1.2.1', :require => false
+	gem 'database_cleaner', '0.7.0'
 end
 
 # To use ActiveModel has_secure_password
